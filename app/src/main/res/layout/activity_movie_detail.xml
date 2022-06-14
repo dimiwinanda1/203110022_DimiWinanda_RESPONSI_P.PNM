@@ -1,4 +1,13 @@
+<!-- -->
+<!-- file activity_movie_detail ini berfungsi untuk mengimplementasikan tampilan detail untuk item media saat dipilih oleh pengguna.
+class ini juga berfungsi untuk menampilkan informasi tambahan tentang item media, seperti deskripsi atau ulasan, dan untuk mengambil 
+tindakan pada item tersebut,seperti membelinya atau memutar kontennya.-->
+
+<!--scriptdibawah ini memiliki arti bahwa dokumen ini dibuat dengan aturan XML versi 1.0.
+Encoding menunjukkan bahwa file XML ini ditulis dengan kode UTF-8. -->
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- -->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,6 +16,7 @@
     android:layout_height="match_parent"
     tools:context=".MovieDetail">
 
+    <!--Textview merupakan widget yang berfungsi untuk menampilkan dan mengatur text pada tampilan, baik itu tinggi, lebar, jarak, warna, ukuran dan preposisinya.-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,6 +25,7 @@
         android:textSize="24sp"
         android:textStyle="bold"/>
 
+    <!--Textview merupakan widget yang berfungsi untuk menampilkan dan mengatur text pada tampilan, baik itu tinggi, lebar, jarak, warna, ukuran dan preposisinya.-->
     <TextView
         android:id="@+id/tv_name"
         android:layout_width="wrap_content"
