@@ -7,7 +7,7 @@ tindakan pada item tersebut,seperti membelinya atau memutar kontennya.-->
 Encoding menunjukkan bahwa file XML ini ditulis dengan kode UTF-8. -->
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- -->
+<!--RelativeLayout dapat diartikan sebuah grup tampilan yang menampilkan tampilan turunan -->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -16,7 +16,8 @@ Encoding menunjukkan bahwa file XML ini ditulis dengan kode UTF-8. -->
     android:layout_height="match_parent"
     tools:context=".MovieDetail">
 
-    <!--Textview merupakan widget yang berfungsi untuk menampilkan dan mengatur text pada tampilan, baik itu tinggi, lebar, jarak, warna, ukuran dan preposisinya.-->
+    <!--Textview merupakan widget yang berfungsi untuk menampilkan dan mengatur text pada tampilan,
+    baik itu tinggi, lebar, jarak, warna, ukuran dan preposisinya.-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,7 +26,8 @@ Encoding menunjukkan bahwa file XML ini ditulis dengan kode UTF-8. -->
         android:textSize="24sp"
         android:textStyle="bold"/>
 
-    <!--Textview merupakan widget yang berfungsi untuk menampilkan dan mengatur text pada tampilan, baik itu tinggi, lebar, jarak, warna, ukuran dan preposisinya.-->
+    <!--Textview merupakan widget yang berfungsi untuk menampilkan dan mengatur text pada tampilan, 
+    baik itu tinggi, lebar, jarak, warna, ukuran dan preposisinya.-->
     <TextView
         android:id="@+id/tv_name"
         android:layout_width="wrap_content"
