@@ -1,13 +1,13 @@
-<!-- -->
-<!-- file activity_movie_detail ini berfungsi untuk mengimplementasikan tampilan detail untuk item media saat dipilih oleh pengguna.
+<!--File activity_movie_detail ini berfungsi untuk mengimplementasikan tampilan detail untuk item media saat dipilih oleh pengguna.
 class ini juga berfungsi untuk menampilkan informasi tambahan tentang item media, seperti deskripsi atau ulasan, dan untuk mengambil 
-tindakan pada item tersebut,seperti membelinya atau memutar kontennya.-->
+tindakan pada item tersebut.-->
 
-<!--scriptdibawah ini memiliki arti bahwa dokumen ini dibuat dengan aturan XML versi 1.0.
+<!--script dibawah ini memiliki arti bahwa dokumen ini dibuat dengan aturan XML versi 1.0.
 Encoding menunjukkan bahwa file XML ini ditulis dengan kode UTF-8. -->
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--RelativeLayout dapat diartikan sebuah grup tampilan yang menampilkan tampilan turunan -->
+<!--RelativeLayout dapat diartikan sebuah grup tampilan yang menampilkan tampilan turunan di posisi relatif.
+Dengan artian kita dapat memposisikan komponen mana saja yang kita inginkan -->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
