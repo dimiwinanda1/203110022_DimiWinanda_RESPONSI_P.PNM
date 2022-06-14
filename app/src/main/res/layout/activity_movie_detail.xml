@@ -1,7 +1,3 @@
-<!--File activity_movie_detail ini berfungsi untuk mengimplementasikan tampilan detail untuk item media saat dipilih oleh pengguna.
-class ini juga berfungsi untuk menampilkan informasi tambahan tentang item media, seperti deskripsi atau ulasan, dan untuk mengambil 
-tindakan pada item tersebut.-->
-
 <!--script dibawah ini memiliki arti bahwa dokumen ini dibuat dengan aturan XML versi 1.0.
 Encoding menunjukkan bahwa file XML ini ditulis dengan kode UTF-8. -->
 <?xml version="1.0" encoding="utf-8"?>
