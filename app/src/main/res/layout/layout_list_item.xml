@@ -14,7 +14,8 @@ Dalam hal ini CardView dibawah ini berisi TextView, untuk menampilkan informasi 
     app:cardCornerRadius="10dp"
     app:cardUseCompatPadding="true">
 
-    <!-- -->
+   <!--RelativeLayout dapat diartikan sebuah grup tampilan yang menampilkan tampilan turunan di posisi relatif.
+   Dengan artian kita dapat memposisikan komponen mana saja yang kita inginkan.-->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
