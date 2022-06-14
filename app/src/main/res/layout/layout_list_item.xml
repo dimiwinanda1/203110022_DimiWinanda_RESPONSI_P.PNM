@@ -1,4 +1,10 @@
+<!-- -->
+<!--scriptdibawah ini memiliki arti bahwa dokumen ini dibuat dengan aturan XML versi 1.0.
+Encoding menunjukkan bahwa file XML ini ditulis dengan kode UTF-8.-->
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--Cardview digunakan sebagai kelompok tampilan untuk menampung tampilan lain. 
+Dalam hal ini CardView dibawah ini berisi TextView, untuk menampilkan informasi tertentu kepada pengguna-->
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,22 +14,29 @@
     app:cardCornerRadius="10dp"
     app:cardUseCompatPadding="true">
 
+    <!-- -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <!--Textview merupakan widget yang berfungsi untuk menampilkan dan mengatur text pada tampilan, 
+        baik itu tinggi, lebar, jarak, warna, ukuran dan preposisinya.-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:id="@+id/tv_name"/>
 
+        <!--Textview merupakan widget yang berfungsi untuk menampilkan dan mengatur text pada tampilan, 
+        baik itu tinggi, lebar, jarak, warna, ukuran dan preposisinya.-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tv_genre"
             android:layout_below="@id/tv_name"/>
 
+        <!--Textview merupakan widget yang berfungsi untuk menampilkan dan mengatur text pada tampilan, 
+        baik itu tinggi, lebar, jarak, warna, ukuran dan preposisinya.-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
