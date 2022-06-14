@@ -1,3 +1,8 @@
+//File MovieDetail ini berfungsi untuk mengimplementasikan tampilan detail untuk item media saat dipilih oleh pengguna
+//class ini juga berfungsi untuk menampilkan informasi tambahan tentang item media, seperti deskripsi atau ulasan, dan untuk mengambil 
+//tindakan pada item tersebut.
+
+
 package com.dimiwinanda.dimitugasakhir
 
 import androidx.appcompat.app.AppCompatActivity
