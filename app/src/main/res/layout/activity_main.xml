@@ -1,4 +1,11 @@
+<!-- -->
+<!--Scriptdibawah ini memiliki arti bahwa dokumen ini dibuat dengan aturan XML versi 1.0.
+Encoding menunjukkan bahwa file XML ini ditulis dengan kode UTF-8.-->
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--RelativeLayout dapat diartikan sebuah grup tampilan yang menampilkan tampilan turunan di posisi relatif.
+Dengan artian kita dapat memposisikan komponen mana saja yang kita inginkan. dalam script ini terdapat 
+file XML juga mempermudah dalam menyediakan berbagai tata letak untuk orientasi dan ukuran layar yang berbeda.  -->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,7 +14,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <!--Menampilkan set data dalam jumlah besar dalam UI sambil meminimalkan penggunaan memori. 
+    sekaligus widget recyclerview ini dapat menampung data dalam jumlah besar, sehingga widget 
+    ini menjadi smooth ketika melakukan scrolling data secara vertikal.-->
+    ngsi <androidx.recyclerview.widget.RecyclerView
+                                                    
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/rv_movie_list"/>
